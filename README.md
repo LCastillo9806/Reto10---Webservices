@@ -28,9 +28,11 @@ Aplicación Android (Kotlin + Jetpack Compose) que consume el servicio web de
 
 ## Capturas (emulador Pixel 8)
 
-| Consulta inicial | Filtro por municipio |
-|---|---|
-| ![inicio](docs/captura_inicio.png) | ![filtro](docs/captura_filtro.png) |
+| Consulta inicial | Filtro por municipio | Filtros combinados |
+|---|---|---|
+| <img src="docs/02_inicio.png" width="250"> | <img src="docs/captura_ocana.png" width="250"> | <img src="docs/11_filtro_combinado.png" width="250"> |
+
+📘 **Manual de uso y de desarrollo con pantallazos de todas las funciones: [MANUAL.md](MANUAL.md)**
 
 ## Ejecutar
 
