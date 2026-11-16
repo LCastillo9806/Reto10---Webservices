@@ -105,10 +105,11 @@ Desliza hacia arriba para ver todas las tarjetas. Cada una muestra:
 ### 1.8 Ver un punto en el mapa
 
 Toca cualquier tarjeta. La app abre la aplicación de mapas del teléfono (Google Maps) y busca la dirección del punto.
+Si el teléfono no tiene ninguna aplicación de mapas, la app no se cierra: muestra el aviso *"No hay una aplicación de mapas instalada"*.
 
-| Punto abierto en Google Maps |
-|---|
-| <img src="docs/10_mapa.png" width="270"> |
+| Punto abierto en Google Maps | Sin app de mapas instalada |
+|---|---|
+| <img src="docs/10_mapa.png" width="270"> | <img src="docs/15_sin_app_mapas.png" width="270"> |
 
 ### 1.9 Consulta sin resultados
 
@@ -330,6 +331,7 @@ Para comprobar que la app funciona bien, se comparó lo que mostraba con consult
 | Límite = 10 | 10 | 10 ✅ |
 | Texto "xyz" | 0 | 0 (mensaje) ✅ |
 | Sin Internet | error | mensaje de error ✅ |
+| Sin app de mapas (Maps desactivado) | aviso | aviso, la app no se cierra ✅ |
 
 ### 2.10 Tecnologías
 

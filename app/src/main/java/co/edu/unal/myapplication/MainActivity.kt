@@ -1,8 +1,10 @@
 package co.edu.unal.myapplication
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -238,7 +240,15 @@ fun PantallaPosconsumo() {
                     items(lista) { punto ->
                         TarjetaPunto(punto) {
                             val q = Uri.encode("${punto.direccion}, ${punto.municipio}, ${punto.departamento}, Colombia")
-                            context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=$q")))
+                            try {
+                                context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=$q")))
+                            } catch (e: ActivityNotFoundException) {
+                                Toast.makeText(
+                                    context,
+                                    "No hay una aplicación de mapas instalada",
+                                    Toast.LENGTH_LONG
+                                ).show()
+                            }
                         }
                     }
                 }
