@@ -1,4 +1,8 @@
-# Reto 10 – Consumiendo Webservices del Catálogo de Datos Colombiano
+# ♻️ Reto 10 – Consumiendo Webservices del Catálogo de Datos Colombiano
+
+> **Curso:** Desarrollo de Aplicaciones para Dispositivos Móviles · Universidad Nacional de Colombia
+> **Autor y desarrollador:** Luis Alberto Castillo Sanabria
+> **Plataforma:** Android (Kotlin + Jetpack Compose)
 
 Aplicación Android (Kotlin + Jetpack Compose) que consume el servicio web de
 [datos.gov.co](https://www.datos.gov.co) del conjunto de datos
@@ -38,4 +42,6 @@ Aplicación Android (Kotlin + Jetpack Compose) que consume el servicio web de
 
 Abrir el proyecto en Android Studio y ejecutar en un emulador o dispositivo con acceso a Internet.
 
-Autor: Luis Alberto Castillo Sanabria
+## Autoría
+
+Desarrollado por **Luis Alberto Castillo Sanabria** ([@LCastillo9806](https://github.com/LCastillo9806)) para el curso *Desarrollo de Aplicaciones para Dispositivos Móviles* de la **Universidad Nacional de Colombia**.
